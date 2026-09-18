@@ -1,0 +1,10 @@
+# Your personal settings -- never commit these
+config.json
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.pdf
+.DS_Store
