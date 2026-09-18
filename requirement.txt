@@ -1,0 +1,12 @@
+# Job Sweep Bot dependencies
+
+# Core engine (sweep_public.py)
+requests>=2.31.0
+
+# Resume parsing (configure.py). Both optional -- .txt or pasted text works
+# without them.
+pypdf>=4.0.0
+python-docx>=1.1.0
+
+# PDF manual generator (generate_guide_pdf.py only)
+reportlab>=4.0.0
